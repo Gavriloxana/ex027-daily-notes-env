@@ -13,7 +13,7 @@ RUN echo "VITE_API_URL=$VITE_API_URL" > .env
 COPY package*.json ./
 RUN npm install
 
-# คัดลอกไฟล์โปรเจกต์
+# คัดลอกไฟล์โปรเจกต์ g
 COPY . .
 
 # Build Nuxt project (จะอ่านค่า .env ที่เราสร้าง)
